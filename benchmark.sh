@@ -10,7 +10,7 @@ query_introspection='{"query":"query IntrospectionQuery {\n            __schema 
 
 # SART CONFIGURATION SECTION:
 # here you can configure the query that is being sent and the number of iterations perfomed to each url
-query="$query_high_complexity"
+query="$query_middle_complexity"
 max_iteraion=200
 # END CONFIGURATION SECTION:
 
