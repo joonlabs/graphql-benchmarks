@@ -23,8 +23,7 @@ escapedQuery=$(echo "$escapedQuery" | sed 's/\\\\/\\/g')
 output="{\"timestamp\":\"$(date +"%Y-%m-%d %H:%M:%S")\", \"query\":\"$escapedQuery\",\"benchmarks\":["
 num_urls=2
 max_iteration=$((max_iteration+5))
-#for url in "http://localhost:8888/" "http://localhost:8889/"
-for url in "https://graphql.joonlabs.com/joonlabs-php-graphql/" "https://graphql.joonlabs.com/webonyx-graphql-php/"
+for url in "http://localhost:8888/" "http://localhost:8889/"
 do
   output="$output{\"url\":\"$url\", \"data\":["
   for i in $(seq "$max_iteration")
