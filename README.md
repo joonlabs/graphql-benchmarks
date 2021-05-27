@@ -91,7 +91,7 @@ The results should then be output on the console. E.g. like this:
         standard deviation: 0.00019s
     
     ******************************************************************************************************
-    * joonlabs/php-graphql is 33.04% faster than webonyx/graphql-php, facing the following query...      *
+    * joonlabs/php-graphql is 16.67% faster than webonyx/graphql-php, facing the following query...      *
     ******************************************************************************************************
     
     Query:
