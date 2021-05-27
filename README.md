@@ -19,7 +19,7 @@ cd webonyx-graphql-php/
 php -S localhost:8889 index.php 
 ```
 
-*HINT: If you do not use the urls mentioned above, you should also change them in the `benchmark.sh` script.* 
+*HINT: If you do not use the urls mentioned above, you should also change them in the `benchmark.sh` script. Also, the scripts assume (for labeling purposes only) that **joonlabs/php-graphql** is tested first and to **webonyx/graphql-php** second.* 
 
 
 ### 2. Set the query
