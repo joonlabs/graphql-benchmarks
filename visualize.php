@@ -56,7 +56,7 @@ if (count($means) > 0) {
 }
 
 // print query
-$query = $results["query"];
+$query = str_replace("\n", "\\n", $results["query"]);
 print("
     Query:
 $query
