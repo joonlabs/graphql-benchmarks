@@ -14,10 +14,11 @@ query_introspection='{"query":"{{RANDOMVARIABLE}}\n query IntrospectionQuery {\n
 # Here you can configure the query that is being sent and the number of iterations perfomed to each url
 # START CONFIGURATION SECTION:
 query="$query_middle_complexity"
-num_iterations=150
+num_iterations=200
 # END CONFIGURATION SECTION:
 
 # START SCRIPT
+echo "Benchmark started at: $(date +"%Y-%m-%d %H:%M:%S")"
 escapedQuery=$(echo "$query" | sed 's/"/\\"/g')
 escapedQuery=$(echo "$escapedQuery" | sed 's/\\\\/\\/g')
 output="{\"timestamp\":\"$(date +"%Y-%m-%d %H:%M:%S")\", \"query\":\"$escapedQuery\",\"benchmarks\":["
