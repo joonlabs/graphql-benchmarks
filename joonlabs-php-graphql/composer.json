@@ -1,0 +1,5 @@
+{
+    "require": {
+        "joonlabs/php-graphql": "^1.0"
+    }
+}

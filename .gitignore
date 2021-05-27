@@ -1,0 +1,9 @@
+.idea
+
+results.json
+
+joonlabs-php-graphql/vendor
+joonlabs-php-graphql/composer.lock
+
+webonyx-graphql-php/vendor
+webonyx-graphql-php/composer.lock
