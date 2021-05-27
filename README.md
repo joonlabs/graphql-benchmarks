@@ -78,17 +78,17 @@ php visualize.php
 ```
 The results should then be output on the console. E.g. like this:
 ```
-    Results for benchmarks started at 2021-05-27 23:07:05
+    Results for benchmarks started at 2021-05-28 00:27:18
 
     Benchmarking on url [http://localhost:8888/]:
-        taken samples:      200 iter.
-        mean:               0.00764s
-        standard deviation: 0.00105s
+        taken samples:      150 iter.
+        mean:               0.02899s
+        standard deviation: 0.00149s
     
     Benchmarking on url [http://localhost:8889/]:
-        taken samples:      200 iter.
-        mean:               0.01141s
-        standard deviation: 0.00019s
+        taken samples:      150 iter.
+        mean:               0.03479s
+        standard deviation: 0.00035s
     
     ******************************************************************************************************
     * joonlabs/php-graphql is 16.67% faster than webonyx/graphql-php, facing the following query...      *
