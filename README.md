@@ -3,6 +3,8 @@ This repo contains benchmark setups and scripts for testing different queries ag
 two PHP-GraphQL implementations [webonyx/graphql-php](https://github.com/webonyx/graphql-php) and [joonlabs/php-graphql](https://github.com/joonlabs/php-graphql) on an equal Star Wars schema containing the same data.
 Both libraries use their built-in default servers.
 
+Please also check out the summary PDF for specific readings and further thoughts: [https://github.com/joonlabs/graphql-benchmarks/raw/master/paper/compiled.pdf](https://github.com/joonlabs/graphql-benchmarks/raw/master/paper/compiled.pdf).
+
 # Measuring
 The measurements are performed with the help of curl. A simple shell script sends a selected query (which can be choosen or set in the head of the `benchmark.sh` script file) several times to two servers, running one implementation each. The absolute response time, reported by curl, is then written to a json file, which can be visualized using the `visualize.php` PHP script. Here, the mean value, the standard deviation and the percentage difference in speed are measured.
 
